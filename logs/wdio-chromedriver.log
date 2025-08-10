@@ -1,0 +1,5 @@
+Starting ChromeDriver 139.0.7258.66 (a62d329947691f76c376a873eae39f56381103c8-refs/branch-heads/7258@{#2226}) on port 9515
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1754830881.229][SEVERE]: bind() returned an error: Only one usage of each socket address (protocol/network address/port) is normally permitted. (0x2740)
+IPv6 port not available. Exiting...

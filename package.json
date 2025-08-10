@@ -1,0 +1,30 @@
+{
+  "name": "e2e-appium",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:chrome": "wdio run ./wdio.web.conf.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@wdio/appium-service": "^9.17.0",
+    "@wdio/cli": "^9.17.1",
+    "@wdio/local-runner": "^9.17.0",
+    "@wdio/mocha-framework": "^9.17.0",
+    "@wdio/spec-reporter": "^9.17.0",
+    "appium": "^2.19.0",
+    "appium-uiautomator2-driver": "^4.2.5",
+    "deepmerge": "^4.3.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3",
+    "webdriverio": "^9.17.0"
+  },
+  "dependencies": {
+    "appium-chromedriver": "^7.0.31",
+    "chromedriver": "^139.0.0",
+    "wdio-chromedriver-service": "^8.1.1"
+  }
+}
